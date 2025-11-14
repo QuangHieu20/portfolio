@@ -1,17 +1,18 @@
 import { createI18n } from 'vue-i18n'
 import en from './locales/en.json'
 import vi from './locales/vi.json'
+import { Locale } from '@/constants/locale'
 
 // Lấy locale từ localStorage hoặc dùng default (an toàn với SSR/SSG)
-const getInitialLocale = (): 'en' | 'vi' => {
+const getInitialLocale = (): Locale => {
   // Kiểm tra xem có phải môi trường browser không
   if (typeof window === 'undefined') {
-    return 'en'
+    return Locale.EN
   }
   
   try {
-    const savedLocale = localStorage.getItem('locale') as 'en' | 'vi' | null
-    if (savedLocale && (savedLocale === 'en' || savedLocale === 'vi')) {
+    const savedLocale = localStorage.getItem('locale') as Locale | null
+    if (savedLocale && (savedLocale === Locale.EN || savedLocale === Locale.VI)) {
       return savedLocale
     }
   } catch (error) {
@@ -19,16 +20,16 @@ const getInitialLocale = (): 'en' | 'vi' => {
     console.warn('Failed to access localStorage:', error)
   }
   
-  return 'en'
+  return Locale.EN
 }
 
 const i18n = createI18n({
   legacy: false,
   locale: getInitialLocale(),
-  fallbackLocale: 'en',
+  fallbackLocale: Locale.EN,
   messages: {
-    en,
-    vi,
+    [Locale.EN]: en,
+    [Locale.VI]: vi,
   },
 })
 

@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useTyping } from '@/composables/useTyping';
 import { useLocale } from '@/composables/useLocale';
 import Default from '@/layouts/Default.vue';
+import { Locale } from '@/constants/locale';
 
 
 const { t, locale } = useLocale()
@@ -10,7 +11,7 @@ const fullText = computed(() => t('home.description'))
 const { displayedText, isTyping } = useTyping(fullText, 50)
 const fullTextLength = computed(() => fullText.value.length)
 const navLinkClass = computed(() => 
-  locale.value === 'vi' ? 'hover-animate nav-link-large-vi' : 'hover-animate nav-link-large'
+  locale.value === Locale.VI ? 'hover-animate nav-link-large-vi' : 'hover-animate nav-link-large'
 )
 </script>
 <template>
@@ -28,7 +29,7 @@ const navLinkClass = computed(() =>
             class="w-full max-w-full sm:w-3/4 xl:w-full h-auto flex flex-col justify-center items-start gap-4 mt-0 xl:mt-[50%]"
           >
             <h1 class="m-0 text-deep-black break-words font-semibold text-[18px]">
-              {{ t('common.name') }}
+              {{ t('common.name') }}ßß
             </h1>
             <h2 class="text-deep-black m-0 break-words font-normal text-[16px]">
               {{ t('common.title') }}

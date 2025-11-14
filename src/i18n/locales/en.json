@@ -4,7 +4,7 @@
     "title": "Software Developer"
   },
   "home": {
-    "description": "To me, each website tells a story, every line of code forms a sentence, the loading speed beats like a heartbeat, and the experience sparks emotion.",
+    "description": "This portfolio is the journey of a 25-year-old guy passionate about IT, where every project and every skill marks my growth.",
     "nav": {
       "skill": "SKILL",
       "work": "WORK",
@@ -24,7 +24,7 @@
   "work": {
     "title": "WORK",
     "intro": "I'm Nguyen Quang Hieu, a software developer with 5 years of experience.",
-    "description": "Back in my school days, I used to wonder: \"How do people create such stunning websites with beautiful effects?\" That curiosity sparked my passion for web development — and right after graduating from high school, I decided to pursue this path. Five years later, that same curiosity still drives me every day. I strive not just to write cleaner code, but to turn each line into an experience a story that connects people through technology. For me, programming isn't just a job; it's a journey of growth, creativity, and endless learning.",
+    "description": "Back in my school days, I used to wonder: \"How do people create such stunning websites with beautiful effects?\" That curiosity sparked my passion for web development — and right after graduating from high school, I decided to pursue this path. Five years later, that same curiosity still drives me every day. I strive not just to write cleaner code, but to turn each line into an experience a story that connects people through technology. For me, programming isn't just a job, it's a journey of growth, creativity, and endless learning.",
     "labels": {
       "technologyUsed": "Technology used:",
       "tools": "Tools:",

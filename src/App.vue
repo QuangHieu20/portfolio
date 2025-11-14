@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { ref, onMounted, nextTick } from 'vue'
+import { onMounted, nextTick } from 'vue'
 import { useRouter } from 'vue-router'
+import { provideLoading } from '@/composables/useLoading'
 
 const router = useRouter()
-const isLoading = ref(false)
+const { loading: isLoading } = provideLoading()
 
 onMounted(() => {
   router.beforeEach((to, from, next) => {

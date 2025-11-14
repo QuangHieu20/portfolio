@@ -7,6 +7,8 @@ import {
 } from "unocss";
 
 export default defineConfig({
+  envMode: 'production',
+  devtools: false,
   theme: {
     colors: {
      'beige-light': '#CABEAE',

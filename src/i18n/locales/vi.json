@@ -4,7 +4,7 @@
     "title": "Lập trình viên"
   },
   "home": {
-    "description": "Mỗi website kể một câu chuyện, mỗi dòng code tạo thành một câu, tốc độ tải như nhịp đập của trái tim, và trải nghiệm tạo ra cảm xúc.",
+    "description": "Portfolio này là hành trình của chàng trai 25 tuổi cùng đam mê với ngành IT, nơi mỗi dự án và mỗi kỹ năng đều đánh dấu bước trưởng thành của tôi.",
     "nav": {
       "skill": "KỸ NĂNG",
       "work": "KINH NGHIỆM",
@@ -24,7 +24,7 @@
   "work": {
     "title": "KINH NGHIỆM",
     "intro": "Tôi là Nguyễn Quang Hiếu, một lập trình viên phần mềm với 5 năm kinh nghiệm.",
-    "description": "Hồi còn đi học, tôi thường tự hỏi: \"Làm sao mọi người tạo ra những website đẹp mắt với các hiệu ứng tuyệt vời như vậy?\" Sự tò mò đó đã khơi dậy niềm đam mê phát triển web của tôi — và ngay sau khi tốt nghiệp trung học, tôi quyết định theo đuổi con đường này. Năm năm sau, sự tò mò đó vẫn thúc đẩy tôi mỗi ngày. Tôi không chỉ cố gắng viết code sạch hơn, mà còn biến mỗi dòng code thành một trải nghiệm, một câu chuyện kết nối mọi người thông qua công nghệ. Đối với tôi, lập trình không chỉ là một công việc; đó là hành trình phát triển, sáng tạo và học hỏi không ngừng.",
+    "description": "Hồi còn đi học, tôi thường tự hỏi: \"Làm sao mọi người tạo ra những website đẹp mắt với các hiệu ứng tuyệt vời như vậy?\" Sự tò mò đó đã khơi dậy niềm đam mê phát triển web của tôi — và ngay sau khi tốt nghiệp trung học phổ thông, tôi quyết định theo đuổi con đường này. Năm năm sau, sự tò mò đó vẫn thúc đẩy tôi mỗi ngày. Tôi không chỉ cố gắng viết code sạch hơn, mà còn biến mỗi dòng code thành một trải nghiệm, một câu chuyện kết nối mọi người thông qua công nghệ. Đối với tôi, lập trình không chỉ là một công việc, đó là hành trình phát triển, sáng tạo và học hỏi không ngừng.",
     "labels": {
       "technologyUsed": "Công nghệ sử dụng:",
       "tools": "Công cụ:",
@@ -40,7 +40,7 @@
     "experiences": {
       "haPayment": {
         "period": "2019-2020 HA PAYMENT JSC",
-        "role": "FULLSTACK DEVELOPER:  ~20 thành viên",
+        "role": "FULLSTACK DEVELOPER: ~20 thành viên",
         "projectName": "Timviec365",
         "description": "Nền tảng web để tạo CV và tìm việc, phục vụ hơn 1,000 người dùng mỗi tháng. Tập trung vào tối ưu trải nghiệm người dùng, cải thiện tỷ lệ thành công khi gửi CV, và đảm bảo tương thích đa thiết bị.",
         "technology": "PHP (CodeIgniter), JavaScript (jQuery), MySQL",
@@ -57,7 +57,7 @@
       },
       "esbt": {
         "period": "2020-2021 ESBT CO., LTD",
-        "role": "FULLTACK DEVELOPER:  ~8 thành viên",
+        "role": "FULLTACK DEVELOPER: ~8 thành viên",
         "projectName": "Salework Social",
         "description": "Hệ thống CRM xã hội để quản lý cuộc trò chuyện Facebook, tích hợp với các ứng dụng nội bộ để quản lý đơn hàng và khách hàng. Hỗ trợ chat real-time, quản lý hình ảnh, tagging, và tự động crawl bài đăng Facebook để trích xuất bình luận và chuyển đổi thành đơn hàng.",
         "technology": "Node.js (Express js, Socket.IO), Vue.js, TailwindCSS, MongoDB",
@@ -72,7 +72,7 @@
       },
       "hostvn": {
         "period": "2021-2022 HOSTVN",
-        "role": "BACKEND DEVELOPER:  ~10 thành viên",
+        "role": "BACKEND DEVELOPER: ~10 thành viên",
         "projectName": "Hệ thống quản lý Hosting nội bộ",
         "description": "Hệ thống được thiết kế để nâng cao quản lý khách hàng và dịch vụ cho hoạt động hosting. Di chuyển và nâng cấp tất cả module WHMCS lên phiên bản mới nhất đảm bảo tương thích hệ thống, ổn định hiệu suất, và cải thiện xử lý dữ liệu cho quy trình làm việc nội bộ. Phát triển công cụ nội bộ sử dụng Laravel để hỗ trợ hoạt động khách hàng, tích hợp API nội bộ, và tối ưu hiệu suất frontend để có thời gian phản hồi nhanh hơn.",
         "technology": "Laravel, WHMCS",
@@ -89,7 +89,7 @@
       },
       "tinhVan": {
         "period": "2022-2025 TINH VAN GROUP",
-        "role": "SOFTWARE DEVELOPER:  ~70 thành viên",
+        "role": "SOFTWARE DEVELOPER: ~70 thành viên",
         "projectName": "ITP Webservice V3",
         "description": "Giải pháp SaaS toàn diện cho lĩnh vực logistics, hỗ trợ quản lý nhà thầu đa công ty, văn phòng bán hàng, phương tiện, tài xế, theo dõi hành trình real-time, quản lý lao động và xe buýt, hoạt động giao hàng, và báo cáo dựa trên kinh doanh.",
         "technology": "Vue.js, Java Spring, PostgreSql & MyBatis, Cassandra, Redis, ActiveMQ",
