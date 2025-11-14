@@ -29,7 +29,7 @@ const navLinkClass = computed(() =>
             class="w-full max-w-full sm:w-3/4 xl:w-full h-auto flex flex-col justify-center items-start gap-4 mt-0 xl:mt-[50%]"
           >
             <h1 class="m-0 text-deep-black break-words font-semibold text-[18px]">
-              {{ t('common.name') }}ßß
+              {{ t('common.name') }}
             </h1>
             <h2 class="text-deep-black m-0 break-words font-normal text-[16px]">
               {{ t('common.title') }}
