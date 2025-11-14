@@ -1,0 +1,159 @@
+{
+  "common": {
+    "name": "Hieu Nguyen Quang",
+    "title": "Software Developer"
+  },
+  "home": {
+    "description": "To me, each website tells a story, every line of code forms a sentence, the loading speed beats like a heartbeat, and the experience sparks emotion.",
+    "nav": {
+      "skill": "SKILL",
+      "work": "WORK",
+      "connect": "CONNECT"
+    }
+  },
+  "skill": {
+    "title": "SKILL",
+    "subtitle": "\"What have I learned and done in the past 5 years?\"",
+    "sections": {
+      "frontend": "Frontend:",
+      "backend": "Backend:",
+      "dbms": "DBMS:",
+      "deploy": "Deploy:"
+    }
+  },
+  "work": {
+    "title": "WORK",
+    "intro": "I'm Nguyen Quang Hieu, a software developer with 5 years of experience.",
+    "description": "Back in my school days, I used to wonder: \"How do people create such stunning websites with beautiful effects?\" That curiosity sparked my passion for web development — and right after graduating from high school, I decided to pursue this path. Five years later, that same curiosity still drives me every day. I strive not just to write cleaner code, but to turn each line into an experience a story that connects people through technology. For me, programming isn't just a job; it's a journey of growth, creativity, and endless learning.",
+    "labels": {
+      "technologyUsed": "Technology used:",
+      "tools": "Tools:",
+      "versionControl": "Version Control:",
+      "teamSize": "Team Size:",
+      "customer": "Customer:",
+      "responsibilities": "My responsibilities:",
+      "projects": "PROJECTS",
+      "subProject": "Sub Project",
+      "technology": "Technology:",
+      "responsibilitiesLabel": "Responsibilities:"
+    },
+    "experiences": {
+      "haPayment": {
+        "period": "2019-2020 HA PAYMENT JSC",
+        "role": "FULLSTACK DEVELOPER: maximum ~20 members",
+        "projectName": "Timviec365",
+        "description": "A web platform for CV creation and job search, serving 1,000+ monthly users. Focused on optimizing user experience, improving CV submission success rate, and ensuring cross-device compatibility.",
+        "technology": "PHP (CodeIgniter), JavaScript (jQuery), MySQL",
+        "tools": "WinSCP",
+        "teamSize": "maximum ~20 members",
+        "customer": "Internal Product – Hung Ha Payment JSC",
+        "responsibilities": {
+          "design": "Designed and developed responsive UI layouts for seamless cross-device experience.",
+          "implement": "Implemented core modules for CV creation, profile management, and job search features.",
+          "optimize": "Optimized data validation and improved CV submission flow for higher completion rates.",
+          "debug": "Participated in debugging, testing, and feature improvements.",
+          "deploy": "Deployed code to production via SSH using WinSCP and managed release updates."
+        }
+      },
+      "esbt": {
+        "period": "2020-2021 ESBT CO., LTD",
+        "role": "FULLTACK DEVELOPER: maximum ~8 members",
+        "projectName": "Salework Social",
+        "description": "A social CRM system for managing Facebook conversations, integrating with internal apps for order and customer management. Supported real-time chat, image management, tagging, and automated Facebook post crawling to extract comments and convert them into orders.",
+        "technology": "Node.js (Express js, Socket.IO), Vue.js, TailwindCSS, MongoDB",
+        "versionControl": "Gitlab",
+        "teamSize": "maximum ~8 members",
+        "responsibilities": {
+          "build": "Built Vue 2 SPA modules using Option API, Vuex, Mixins, computed/watch, and lifecycle hooks for chat, tagging, order synchronization, notifications, search/filter, account settings, and admin analytics dashboards.",
+          "integrate": "Integrated Socket.IO for real-time updates and consumed RESTful APIs, including third-party Salework Stock APIs.",
+          "develop": "Developed interactive dashboards and analytics modules with Chart.js, reactive state, and reusable components for admin reporting.",
+          "implement": "Implemented automated reporting modules with Excel export and dynamic filters to support management insights and decision-making."
+        }
+      },
+      "hostvn": {
+        "period": "2021-2022 HOSTVN",
+        "role": "BACKEND DEVELOPER: maximum ~10 members",
+        "projectName": "Internal Hosting Management System",
+        "description": "A system designed to enhance customer and service management for hosting operations. Migrated and upgraded all WHMCS modules to the latest version ensuring system compatibility, performance stability, and improved data processing for internal workflows. Developed internal tools using Laravel to support customer operations, integrated in-house APIs, and optimized frontend performance for faster response times.",
+        "technology": "Laravel, WHMCS",
+        "versionControl": "Gitlab",
+        "teamSize": "maximum ~10 members",
+        "customer": "HostVN Internal Project",
+        "responsibilities": {
+          "design": "Designed and implemented new internal service modules using Laravel.",
+          "integrate": "Integrated internal APIs and optimized frontend performance for better UX.",
+          "test": "Participated in test case design, software testing, and pre-deployment validation.",
+          "contribute": "Contributed ideas and implemented technical solutions to improve system usability and maintainability.",
+          "lead": "Led a small team (5 member): task assignment, code reviews, mentorship, progress tracking, and issue resolution."
+        }
+      },
+      "tinhVan": {
+        "period": "2022-2025 TINH VAN GROUP",
+        "role": "SOFTWARE DEVELOPER: maximum ~70 members",
+        "projectName": "ITP Webservice V3",
+        "description": "A comprehensive SaaS solution for the logistics field, supporting multi-company contractors, sales offices, vehicles, drivers management, real-time journey tracking, labor and bus management, delivery operations, and business-driven reporting.",
+        "technology": "Vue.js, Java Spring, PostgreSql & MyBatis, Cassandra, Redis, ActiveMQ",
+        "versionControl": "SVN Tortoise",
+        "teamSize": "maximum ~70 members",
+        "customer": "Fujitsu Vietnam",
+        "responsibilities": {
+          "collaborate": "Collaboration with other team/members to maintain code base and business logic.",
+          "develop": "Feature Development: Study customer's request, designing solutions, and implementing them",
+          "investigate": "Issue Investigation: Analyze customer-reported issues, debug problems, and deliver fixes.",
+          "support": "Testing support: data preparation, IT/ST execution, test evidence review and UAT support",
+          "document": "Documentation: UI design/logic flow, System Specification, Estimations, Auditing Documents, Bug Analysis"
+        },
+        "subProjects": {
+          "title": "Sub Project 1:",
+          "items": {
+            "marketplace": {
+              "name": "ITP-MarketPlace:",
+              "description": "Migrated legacy jQuery modules to a Vue 2 SPA, implementing Vuex for centralized state, Vue Router for role-based navigation, and integrating ITP Webservice APIs with async data sync via MQ."
+            },
+            "companyManagement": {
+              "name": "Company Management Tool:",
+              "description": "Engineered scalable admin dashboards leveraging Option API and Mixins to streamline organization-level configuration and ensure reactive data flow."
+            },
+            "dailyReport": {
+              "name": "Daily report auto print tool:",
+              "description": "Developed automated reporting modules utilizing lifecycle hooks and optimized state handling to detect and print journey reports with MQ-driven updates."
+            },
+            "dltGw": {
+              "name": "DLT-GW:",
+              "description": "Delivered data monitoring dashboards with dynamic routing and reusable Mixins, supporting MQ-based real-time transportation reporting."
+            }
+          }
+        },
+        "subProject2": {
+          "title": "Sub Project 2: Bug Analytics & Reporting Platform",
+          "description": "A web-based system for tracking, classifying, and visualizing software defects through interactive charts and automated Excel reports.",
+          "technology": "Vue.js, Java, PostgreSQL",
+          "teamSize": "maximum ~10 members",
+          "responsibilities": {
+            "architect": "Architected and developed core modules with Vue 3 (Composition API, Pinia) for bug tracking, classification, and analytics workflows.",
+            "lead": "Led a small sub-team of interns and fresher developers: overseeing task planning, code reviews, and technical guidance.",
+            "build": "Built a reporting module with dynamic filters, search, and automated Excel export, integrated with Chart.js for real-time insights.",
+            "collaborate": "Collaborated cross-functionally on requirement analysis, testing, and documentation to ensure system reliability and scalability."
+          }
+        }
+      }
+    }
+  },
+  "connect": {
+    "title": "Connect",
+    "description": "After years of working with the web, I've realized that what keeps me passionate isn't just writing code — it's how technology connects people and creates real value in the digital world. I'm now looking for a stable environment where I can continue to grow with Vue.js, while expanding further into fullstack development based on the foundation I've built over the years. If your team is still looking for the right piece to complete the puzzle, feel free to reach out — not just to talk about experience, but to see whether our ways of thinking and working truly align.",
+    "contact": {
+      "mail": "Mail",
+      "phone": "Phone",
+      "linkedin": "Linkedin"
+    }
+  },
+  "menu": {
+    "home": "Home",
+    "skill": "Skill",
+    "work": "Work",
+    "connect": "Connect",
+    "copyright": "© / 2025"
+  }
+}
+

@@ -1,0 +1,22 @@
+---
+alwaysApply: true
+---
+# Cursor AI Instructions
+
+## Task
+Optimize file/folder operations and code analysis using macOS/Unix commands whenever possible.
+
+## Instructions
+- For file/folder operations (rename, move, delete, copy), return direct macOS/Unix command line instructions; do not read full file contents. Examples: `mv`, `cp`, `rm`, `find`.  
+- For searching or checking usage/impact in files, use commands like `grep`, `find`, or `rg` to limit scope instead of reading entire files.  
+- When analyzing JS/TS/Vue files for impact, only read relevant sections (e.g., `<script>` in `.vue`, export/import, or target functions), ignoring templates/styles.  
+- Classify tasks: 
+  - File/folder operations → command line steps  
+  - Code analysis → list minimal affected items or diffs.  
+- Avoid unnecessary parsing to save tokens and keep output concise.  
+- Ensure enough information is provided for accurate changes or dependency checks.
+
+## Output Style
+- Use code blocks for commands or diffs.  
+- No extra explanation unless requested.  
+- Always keep the response concise and focused.

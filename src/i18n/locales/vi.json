@@ -1,0 +1,159 @@
+{
+  "common": {
+    "name": "Nguyễn Quang Hiếu",
+    "title": "Lập trình viên"
+  },
+  "home": {
+    "description": "Mỗi website kể một câu chuyện, mỗi dòng code tạo thành một câu, tốc độ tải như nhịp đập của trái tim, và trải nghiệm tạo ra cảm xúc.",
+    "nav": {
+      "skill": "KỸ NĂNG",
+      "work": "KINH NGHIỆM",
+      "connect": "LIÊN HỆ"
+    }
+  },
+  "skill": {
+    "title": "KỸ NĂNG",
+    "subtitle": "Tôi đã học và làm được gì trong 5 năm qua?",
+    "sections": {
+      "frontend": "Frontend:",
+      "backend": "Backend:",
+      "dbms": "Cơ sở dữ liệu:",
+      "deploy": "Triển khai:"
+    }
+  },
+  "work": {
+    "title": "KINH NGHIỆM",
+    "intro": "Tôi là Nguyễn Quang Hiếu, một lập trình viên phần mềm với 5 năm kinh nghiệm.",
+    "description": "Hồi còn đi học, tôi thường tự hỏi: \"Làm sao mọi người tạo ra những website đẹp mắt với các hiệu ứng tuyệt vời như vậy?\" Sự tò mò đó đã khơi dậy niềm đam mê phát triển web của tôi — và ngay sau khi tốt nghiệp trung học, tôi quyết định theo đuổi con đường này. Năm năm sau, sự tò mò đó vẫn thúc đẩy tôi mỗi ngày. Tôi không chỉ cố gắng viết code sạch hơn, mà còn biến mỗi dòng code thành một trải nghiệm, một câu chuyện kết nối mọi người thông qua công nghệ. Đối với tôi, lập trình không chỉ là một công việc; đó là hành trình phát triển, sáng tạo và học hỏi không ngừng.",
+    "labels": {
+      "technologyUsed": "Công nghệ sử dụng:",
+      "tools": "Công cụ:",
+      "versionControl": "Quản lý phiên bản:",
+      "teamSize": "Quy mô team:",
+      "customer": "Khách hàng:",
+      "responsibilities": "Trách nhiệm của tôi:",
+      "projects": "DỰ ÁN",
+      "subProject": "Dự án phụ",
+      "technology": "Công nghệ:",
+      "responsibilitiesLabel": "Trách nhiệm:"
+    },
+    "experiences": {
+      "haPayment": {
+        "period": "2019-2020 HA PAYMENT JSC",
+        "role": "FULLSTACK DEVELOPER:  ~20 thành viên",
+        "projectName": "Timviec365",
+        "description": "Nền tảng web để tạo CV và tìm việc, phục vụ hơn 1,000 người dùng mỗi tháng. Tập trung vào tối ưu trải nghiệm người dùng, cải thiện tỷ lệ thành công khi gửi CV, và đảm bảo tương thích đa thiết bị.",
+        "technology": "PHP (CodeIgniter), JavaScript (jQuery), MySQL",
+        "tools": "WinSCP",
+        "teamSize": " ~20 thành viên",
+        "customer": "Sản phẩm – Hung Ha Payment JSC",
+        "responsibilities": {
+          "design": "Thiết kế và phát triển giao diện responsive đảm bảo trải nghiệm người dùng tối ưu trên mọi thiết bị.",
+          "implement": "Triển khai các module cốt lõi cho hệ thống tạo CV, quản lý hồ sơ ứng viên, và tìm kiếm việc làm.",
+          "optimize": "Tối ưu hóa quy trình validation dữ liệu và cải thiện workflow gửi CV nhằm nâng cao tỷ lệ hoàn thành.",
+          "debug": "Thực hiện debugging, testing và tối ưu hóa các tính năng hệ thống.",
+          "deploy": "Triển khai code lên môi trường production qua SSH sử dụng WinSCP và quản lý các bản release."
+        }
+      },
+      "esbt": {
+        "period": "2020-2021 ESBT CO., LTD",
+        "role": "FULLTACK DEVELOPER:  ~8 thành viên",
+        "projectName": "Salework Social",
+        "description": "Hệ thống CRM xã hội để quản lý cuộc trò chuyện Facebook, tích hợp với các ứng dụng nội bộ để quản lý đơn hàng và khách hàng. Hỗ trợ chat real-time, quản lý hình ảnh, tagging, và tự động crawl bài đăng Facebook để trích xuất bình luận và chuyển đổi thành đơn hàng.",
+        "technology": "Node.js (Express js, Socket.IO), Vue.js, TailwindCSS, MongoDB",
+        "versionControl": "Gitlab",
+        "teamSize": " ~8 thành viên",
+        "responsibilities": {
+          "build": "Xây dựng các module Vue 2 SPA sử dụng Options API, Vuex state management, Mixins, computed/watch properties và lifecycle hooks cho các tính năng chat, tagging, đồng bộ đơn hàng, thông báo, tìm kiếm/lọc, quản lý tài khoản, và dashboard phân tích dành cho admin.",
+          "integrate": "Tích hợp Socket.IO để xử lý cập nhật real-time và tích hợp RESTful APIs, bao gồm các Salework Stock APIs của bên thứ ba.",
+          "develop": "Phát triển dashboard và module phân tích tương tác sử dụng Chart.js, reactive state management, và các reusable components cho hệ thống báo cáo admin.",
+          "implement": "Triển khai module báo cáo tự động với chức năng export Excel và dynamic filtering để hỗ trợ business insights và quá trình ra quyết định."
+        }
+      },
+      "hostvn": {
+        "period": "2021-2022 HOSTVN",
+        "role": "BACKEND DEVELOPER:  ~10 thành viên",
+        "projectName": "Hệ thống quản lý Hosting nội bộ",
+        "description": "Hệ thống được thiết kế để nâng cao quản lý khách hàng và dịch vụ cho hoạt động hosting. Di chuyển và nâng cấp tất cả module WHMCS lên phiên bản mới nhất đảm bảo tương thích hệ thống, ổn định hiệu suất, và cải thiện xử lý dữ liệu cho quy trình làm việc nội bộ. Phát triển công cụ nội bộ sử dụng Laravel để hỗ trợ hoạt động khách hàng, tích hợp API nội bộ, và tối ưu hiệu suất frontend để có thời gian phản hồi nhanh hơn.",
+        "technology": "Laravel, WHMCS",
+        "versionControl": "Gitlab",
+        "teamSize": " ~10 thành viên",
+        "customer": "Dự án nội bộ HostVN",
+        "responsibilities": {
+          "design": "Thiết kế và triển khai các module dịch vụ nội bộ mới sử dụng framework Laravel.",
+          "integrate": "Tích hợp các internal APIs và tối ưu hóa hiệu suất frontend nhằm nâng cao trải nghiệm người dùng.",
+          "test": "Tham gia thiết kế test cases, thực hiện software testing và validation trước khi triển khai.",
+          "contribute": "Đóng góp ý tưởng và triển khai các giải pháp kỹ thuật để cải thiện tính khả dụng và khả năng bảo trì của hệ thống.",
+          "lead": "Dẫn dắt team nhỏ (5 thành viên): phân công công việc, thực hiện code review, mentoring, theo dõi tiến độ dự án và giải quyết các vấn đề kỹ thuật."
+        }
+      },
+      "tinhVan": {
+        "period": "2022-2025 TINH VAN GROUP",
+        "role": "SOFTWARE DEVELOPER:  ~70 thành viên",
+        "projectName": "ITP Webservice V3",
+        "description": "Giải pháp SaaS toàn diện cho lĩnh vực logistics, hỗ trợ quản lý nhà thầu đa công ty, văn phòng bán hàng, phương tiện, tài xế, theo dõi hành trình real-time, quản lý lao động và xe buýt, hoạt động giao hàng, và báo cáo dựa trên kinh doanh.",
+        "technology": "Vue.js, Java Spring, PostgreSql & MyBatis, Cassandra, Redis, ActiveMQ",
+        "versionControl": "SVN Tortoise",
+        "teamSize": " ~70 thành viên",
+        "customer": "Fujitsu Vietnam",
+        "responsibilities": {
+          "collaborate": "Phối hợp với các team và thành viên khác để duy trì codebase và business logic của hệ thống.",
+          "develop": "Phát triển tính năng: Nghiên cứu yêu cầu từ phía khách hàng, thiết kế giải pháp kỹ thuật và triển khai các tính năng mới.",
+          "investigate": "Điều tra và xử lý sự cố: Phân tích các vấn đề được khách hàng báo cáo, thực hiện debugging và cung cấp các bản hotfix/patch.",
+          "support": "Hỗ trợ quá trình testing: chuẩn bị test data, thực thi Integration Testing/System Testing, review test evidence và hỗ trợ User Acceptance Testing (UAT).",
+          "document": "Soạn thảo tài liệu kỹ thuật: UI design/logic flow, System Specification, Effort Estimation, Auditing Documents và Bug Analysis Reports."
+        },
+        "subProjects": {
+          "title": "Dự án phụ 1:",
+          "items": {
+            "marketplace": {
+              "name": "ITP-MarketPlace:",
+              "description": "Nâng cấp hệ thống từ jQuery legacy lên Vue 2 SPA, triển khai Vuex cho centralized state management, Vue Router cho role-based navigation, và tích hợp ITP Webservice APIs với asynchronous data synchronization qua Message Queue."
+            },
+            "companyManagement": {
+              "name": "Company Management Tool:",
+              "description": "Xây dựng admin dashboard có khả năng mở rộng sử dụng Options API và Mixins để đơn giản hóa cấu hình ở cấp tổ chức và đảm bảo reactive data flow trong ứng dụng."
+            },
+            "dailyReport": {
+              "name": "Daily report auto print tool:",
+              "description": "Phát triển module báo cáo tự động sử dụng lifecycle hooks và tối ưu hóa state management để phát hiện và in báo cáo hành trình với cập nhật real-time dựa trên Message Queue."
+            },
+            "dltGw": {
+              "name": "DLT-GW:",
+              "description": "Xây dựng dashboard giám sát dữ liệu với dynamic routing và reusable Mixins, hỗ trợ báo cáo vận tải real-time dựa trên Message Queue."
+            }
+          }
+        },
+        "subProject2": {
+          "title": "Dự án phụ 2: Nền tảng Bug Analytics & Reporting",
+          "description": "Hệ thống web-based để theo dõi, phân loại, và trực quan hóa lỗi phần mềm thông qua biểu đồ tương tác và báo cáo Excel tự động.",
+          "technology": "Vue.js, Java, PostgreSQL",
+          "teamSize": " ~10 thành viên",
+          "responsibilities": {
+            "architect": "Thiết kế kiến trúc hệ thống và phát triển các module cốt lõi sử dụng Vue 3 (Composition API, Pinia state management) cho các workflows bug tracking, classification và analytics.",
+            "lead": "Dẫn dắt sub-team nhỏ gồm intern và fresher developers: giám sát quá trình lập kế hoạch nhiệm vụ, thực hiện code review và cung cấp technical guidance.",
+            "build": "Xây dựng module báo cáo với dynamic filtering, search functionality và automated Excel export, tích hợp Chart.js để cung cấp real-time insights.",
+            "collaborate": "Phối hợp cross-functional về requirement analysis, testing và documentation để đảm bảo tính reliability và scalability của hệ thống."
+          }
+        }
+      }
+    }
+  },
+  "connect": {
+    "title": "Liên hệ",
+    "description": "Sau nhiều năm làm việc với web, tôi nhận ra rằng điều giữ cho tôi đam mê không chỉ là viết code — mà là cách công nghệ kết nối mọi người và tạo ra giá trị thực sự trong thế giới số. Hiện tại tôi đang tìm kiếm một môi trường ổn định nơi tôi có thể tiếp tục phát triển với Vue.js, đồng thời mở rộng hơn nữa sang phát triển fullstack dựa trên nền tảng mà tôi đã xây dựng trong những năm qua. Nếu team của bạn vẫn đang tìm kiếm mảnh ghép phù hợp để hoàn thiện bức tranh, đừng ngần ngại liên hệ — không chỉ để nói về kinh nghiệm, mà còn để xem liệu cách suy nghĩ và làm việc của chúng ta có thực sự phù hợp không.",
+    "contact": {
+      "mail": "Email",
+      "phone": "Điện thoại",
+      "linkedin": "Linkedin"
+    }
+  },
+  "menu": {
+    "home": "Trang chủ",
+    "skill": "Kỹ năng",
+    "work": "Công việc",
+    "connect": "Liên hệ",
+    "copyright": "© / 2025"
+  }
+}
+
