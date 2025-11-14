@@ -140,7 +140,7 @@
     }
   },
   "connect": {
-    "title": "Liên hệ",
+    "title": "LIÊN HỆ",
     "description": "Sau nhiều năm làm việc với web, tôi nhận ra rằng điều giữ cho tôi đam mê không chỉ là viết code — mà là cách công nghệ kết nối mọi người và tạo ra giá trị thực sự trong thế giới số. Hiện tại tôi đang tìm kiếm một môi trường ổn định nơi tôi có thể tiếp tục phát triển với Vue.js, đồng thời mở rộng hơn nữa sang phát triển fullstack dựa trên nền tảng mà tôi đã xây dựng trong những năm qua. Nếu team của bạn vẫn đang tìm kiếm mảnh ghép phù hợp để hoàn thiện bức tranh, đừng ngần ngại liên hệ — không chỉ để nói về kinh nghiệm, mà còn để xem liệu cách suy nghĩ và làm việc của chúng ta có thực sự phù hợp không.",
     "contact": {
       "mail": "Email",
